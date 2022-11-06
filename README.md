@@ -1,1 +1,0 @@
-# Shrinkage-and-Redundant-Feature-Elimination-Network-Based-Robust-Image-Zero-watermarking
