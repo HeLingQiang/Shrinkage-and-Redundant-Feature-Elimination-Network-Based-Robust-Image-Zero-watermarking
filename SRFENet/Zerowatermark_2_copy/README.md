@@ -1,11 +1,11 @@
 # SRFENet
 Pytorch implementation of paper "Shrinkage and Redundant Feature Elimination Network Based Robust Image Zero-watermarking"
 
-##Note: 
+## Note: 
 Our model is placed in the model.decoder, and the encoder and discriminator do not work in our paper
 After the model is trained, a run folder appears, which is needed to test our model.
 
-#Dataset
+## Dataset
 We use 10000 COCO images as the training data set and 1000 COCO verification set.In the test, we not only test the COCO data set, but also test the DIV2k data and VOC data set.
 The data directory has the following structure:
 <data_root>/
@@ -21,7 +21,7 @@ The data directory has the following structure:
       ...
 train_class and val_class folders are so that we can use the standard torchvision data loaders without change.
 
-##Noise_add:
+## Noise_add:
 If you want to set some random noises,you can place these noise into noise_layers.Noiser file list rather than Command-line input 
 
 ## Running
